@@ -1,34 +1,33 @@
-# Cloud Resume Challenge
 
-This is my take on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/), built to demonstrate my foundational skills in cloud and DevOps.
+# ☁️ Cloud Resume Challenge
 
-## 🌐 Live Site
+This project is my completed version of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/), a hands-on initiative combining frontend development, cloud infrastructure, CI/CD, and serverless tech.
 
-[View Resume](http://bryangarcia-resume-site.s3-website-us-east-1.amazonaws.com)
-
-## 📈 Visitor Counter
-
-The site uses:
-- **AWS Lambda** to update visitor count
-- **DynamoDB** to store and increment visits
-- **API Gateway** to expose the Lambda as an HTTP endpoint
-- **JavaScript** to fetch and display the visitor count
-
-## ⚙️ Tech Stack
-
-- AWS S3 (Static Website Hosting)
-- AWS Lambda (Python)
-- AWS API Gateway
-- AWS DynamoDB
-- JavaScript / HTML / CSS
-- GitHub (Source control and portfolio)
-
-## 🧠 What I Learned
-
-- How to integrate serverless services using AWS
-- Real-world CORS troubleshooting and IAM permission setup
-- Deploying and debugging Lambda + API Gateway with DynamoDB
+It showcases a static resume site hosted on **AWS S3**, with a dynamic visitor counter powered by **Lambda**, **API Gateway**, and **DynamoDB**.
 
 ---
 
-### 🚀 Try it live and watch the visitor count update!
+## 🌐 Live Site
+
+**[View my resume](http://bryangarcia-resume-site.s3-website-us-east-1.amazonaws.com)** hosted on AWS S3.
+
+![Resume Screenshot](./Screenshot%202025-04-03%20at%205.14.44%E2%80%AFPM.png)
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: HTML/CSS
+- **Cloud**: AWS S3, Lambda, DynamoDB, API Gateway
+- **Backend**: Python (Lambda function)
+- **Infrastructure**: AWS IAM, CloudWatch Logs
+- **CI/CD**: Manual for now (soon to be GitHub Actions)
+
+---
+
+## 🚀 How to Deploy
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/ckideas1/cloud-resume-challenge.git
+   cd cloud-resume-challenge
