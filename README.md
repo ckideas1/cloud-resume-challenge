@@ -112,7 +112,7 @@ CI/CD Pipeline:
 
 ---
 
-With this structured flow, your **README.md** will look professional and provide comprehensive details about your Cloud Resume Challenge project. Let me know if you'd like any more changes or if you'd like to finalize it!
+
 
 
 
