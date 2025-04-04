@@ -31,17 +31,22 @@ It showcases a static resume site hosted on **AWS S3**, with a dynamic visitor c
    ```bash
    git clone https://github.com/ckideas1/cloud-resume-challenge.git
    cd cloud-resume-challenge
+   
 2. Set up AWS services:
-AWS S3: Host the static website.
+   AWS S3: Host the static website.
 
-AWS Lambda: Create a function for counting visitors.
+   AWS Lambda: Create a function for counting visitors.
 
-API Gateway: Set up an API to expose Lambda function.
+   API Gateway: Set up an API to expose Lambda function.
 
-DynamoDB: Store visitor count.
+   DynamoDB: Store visitor count.
+   
+---
 
 📜 Objective
 The Cloud Resume Challenge aims to demonstrate a range of cloud computing and web development skills, with a focus on serverless architecture. The main goal is to create a dynamic and highly available resume site that automatically tracks the number of visitors.
+
+---
 
 🛠️ Project Workflow
 Frontend Development: I started by building a simple HTML/CSS site to showcase my resume.
@@ -61,10 +66,14 @@ Initially, I manually deployed my site to S3 but am now transitioning to automat
 💡 CI/CD with GitHub Actions (To be completed soon)
 GitHub Actions automates the deployment of the site on every change made to the repository. This ensures that the resume site is always up-to-date without needing to manually push files.
 
+---
+
 🔧 Troubleshooting
 Issue: If you're having trouble deploying, ensure all AWS services are properly configured, especially the Lambda function and DynamoDB table.
 
 AWS Secrets: Make sure your AWS Access Keys are securely configured in GitHub secrets (e.g., AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY).
+
+---
 
 📅 Milestones
 Initial Setup: Completed creating the static resume site and uploaded to AWS S3.
@@ -72,6 +81,8 @@ Initial Setup: Completed creating the static resume site and uploaded to AWS S3.
 Visitor Count: Integrated AWS Lambda, API Gateway, and DynamoDB for the dynamic counter.
 
 CI/CD Pipeline: Transitioning to GitHub Actions for automated deployments.
+
+---
 
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
