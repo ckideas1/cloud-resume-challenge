@@ -56,11 +56,11 @@ Frontend Development: I started by building a simple HTML/CSS site to showcase m
 
 AWS Setup:
 
-   Configured S3 to serve as the static hosting for the site.
+    Configured S3 to serve as the static hosting for the site.
 
-   Developed a Lambda function to count unique visitors using a DynamoDB table to store the count.
+    Developed a Lambda function to count unique visitors using a DynamoDB table to store the count.
 
-   Set up an API Gateway to expose the Lambda function via a REST API.
+    Set up an API Gateway to expose the Lambda function via a REST API.
 
 CI/CD Pipeline:
 
